@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/*----------------------- Navbar css style -----------------------------*/
+.navbar-bg{
+  background-color: #fff;
+  padding: 2rem 0px;
+  z-index: 99;
+
+  position: relative;
+
+}
+
+.navbar li{
+  padding: 0 .3rem;
+}
+
+.navbar li a{
+  font-size: 1.1em;
+  font-weight: normal;
+}
+
+.navbar li a:hover{
+  color: black !important;
+}
+
+.btn-style{
+  width: 7rem;
+  text-transform: uppercase;
+  color: black;
+  border: 1px solid black !important;
+  border-radius: 20px;
+  
+}
+
+.btn-style:first-child{
+  margin-right: .5rem;  
+}
+
+.btn-style:hover{
+  background-color: black !important;
+  color: #fff !important;
+}
+
+
+@media (max-width:590px){
+  .navbar-bg{
+    padding: 1rem 2rem;
+  }
+}
